@@ -1,0 +1,36 @@
+.Place{
+    width: 700px;
+    background-color: rgba(21, 21, 21   , .7);
+}
+
+.table{
+    width: 150px;
+    height: 150px;
+    margin: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding: 15px 10px 10px 10px;
+}
+
+.delete{
+    transform: rotate(45deg);
+    position: absolute;
+    right: 10px;
+    top: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.head_text{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}

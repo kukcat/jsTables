@@ -1,0 +1,20 @@
+.ReserveItem{
+    width: 45%;
+    background: linear-gradient(to right bottom, #14100d, #282421);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    margin: 10px 0;
+    box-shadow: 0px 0px 13px 5px rgba(0, 0, 0, 0.3);
+    cursor: grab;
+    position: relative;
+}
+
+.delete{
+    transform: rotate(45deg);
+    position: absolute;
+    right: 10px;
+    top: 0;
+    cursor: pointer;
+    font-size: 20px;
+}

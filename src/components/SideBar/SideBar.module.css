@@ -1,0 +1,23 @@
+.sideBar{
+    width: 400px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.head{
+    text-align: center;
+    background: -webkit-linear-gradient(#ffffff, #9b9b9b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.itemWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px 0;
+    justify-content:space-around;
+}

@@ -1,0 +1,23 @@
+.loginInput{
+    /* border: 2px solid purple; */
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: wheat;
+    width: 100%;
+    text-align: center;
+}
+
+.loginInput:focus{
+    outline:none;
+    border: 3px solid #ecae08 ;
+    padding: 2px;
+}
+
+.title{
+    color:#ecae08;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
